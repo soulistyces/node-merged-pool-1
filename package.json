@@ -12,15 +12,7 @@
     "cryptohello",
     "scrypt"
   ],
-  "homepage": "https://github.com/UlordChain/node-merged-pool",
-  "bugs": {
-    "url": "https://github.com/UlordChain/node-merged-pool/issues"
-  },
-  "license": "GPL-2.0",
-  "author": {
-    "name": "Jack Chen"
-  },
-  "contributors": [
+   "contributors": [
     {
       "name": "vekexasia"
     },
@@ -31,11 +23,11 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UlordChain/node-stratum-pool.git"
+    "url": "git+https://github.com/soulistyces/node-merged-pool-1.git"
   },
   "dependencies": {
-    "multi-hashing": "git+https://github.com/UlordChain/node-multi-hashing.git",
-    "bignum": "*",
+    "multi-hashing": "git+https://github.com/soulistyces/node-multi-hashing.git",
+    "bignum": "0.11",
     "base58-native": "*",
     "async": "*",
     "redis": "*",
