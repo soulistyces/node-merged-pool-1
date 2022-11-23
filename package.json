@@ -30,7 +30,7 @@
     "bignum": "0.11",
     "base58-native": "*",
     "async": "*",
-    "redis": "*",
+    "redis": "^3",
     "node-json-minify": "*"
   },
   "engines": {
